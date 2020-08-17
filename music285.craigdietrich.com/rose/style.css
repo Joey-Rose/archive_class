@@ -1,0 +1,20 @@
+body {margin:0px 20px 0px 20px;}
+
+nav {background-color:brown; padding-left:10px; padding-right:10px; color:white; border-radius:10px;}
+nav > div {text-align:center; padding-top:10px; padding-bottom:10px;}
+
+section {clear:both; padding:20px;}
+
+.right > img {width:100%; border:solid 1px #aaaaaa;}
+.caption {margin-top:0px;}
+
+#page_select {width:100%; font-size:16px;}
+
+.row {clear:both; max-width:800px; padding-bottom:20px; margin-left:auto; margin-right:auto;}
+.row img {height:100px;}
+
+@media (min-width: 992px) {
+  nav > div {width:24%; display:inline-block; text-align:center;}
+  .left {width:45%; float:left;}
+  .right {width:45%; float:right;}
+}

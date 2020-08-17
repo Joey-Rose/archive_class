@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Inside Rockarchivola</title>
+  <link rel="stylesheet" href="style.css?v=6">
+  <script>
+  	function goto_page(select) {
+  	    var value = select.options[select.selectedIndex].value;
+  		document.location.href = value;
+  	}
+  </script>
+</head>
+<body>
+
+<h1>Inside Rockarchivola</h1>
+
+<nav>
+	<div>
+		<select id="page_select" onchange="goto_page(this)">
+			<option value="/andrews">Andrews</option>
+			<option value="/bonomi">Bonomi</option>
+			<option value="/bowen">Bowen</option>
+			<option value="/camozzi">Camozzi</option>
+			<option value="/chao">Chao</option>
+			<option value="/chitwood">Chitwood</option>
+			<option value="/dietrich" selected>Dietrich</option>
+			<option value="/endrizzi">Endrizzi</option>
+			<option value="/farner">Farner</option>
+			<option value="/gutierrez">Gutierrez</option>
+			<option value="/hirsch">Hirsch</option>
+			<option value="/leon">Leon</option>
+			<option value="/marguglio">Marguglio</option>
+			<option value="/rose">Rose</option>
+			<option value="/solomon">Solomon</option>
+			<option value="/steckel">Steckel</option>
+		</select>	
+	</div>
+	<div>Option 2</div>
+	<div>Option 3</div>
+	<div>Option 4</div>
+</nav>
+
+<section>
+	<div class="left">
+		<p>
+			This is a great first paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel libero id tellus vehicula consequat vel eu nisl. Proin maximus molestie tellus, quis facilisis nibh molestie sed. Nullam interdum, leo ac hendrerit pellentesque, arcu neque condimentum massa, non dictum leo lacus id erat. Quisque pharetra dui a tortor fermentum, ut accumsan libero auctor. Aenean et sagittis augue. Nullam semper, nisl id consectetur maximus, metus ex hendrerit ligula, ac feugiat neque est id lectus. Integer suscipit fringilla quam vestibulum tristique.
+		</p><p>
+			This is an excellent second paragraph. Integer eu arcu quis magna lacinia dignissim. Fusce sed magna elit. Cras blandit eros ac scelerisque consectetur. Mauris mollis ex mollis dui ornare, eu pellentesque libero eleifend. Maecenas faucibus aliquet mauris. Praesent justo dolor, egestas eu sem ac, facilisis malesuada neque. Ut interdum nibh id arcu luctus, in tempor ex hendrerit. Mauris luctus accumsan lorem, eu dictum nisl lobortis at. Vivamus ullamcorper nibh sed metus varius, et convallis orci hendrerit. Sed eros est, iaculis at malesuada quis, pellentesque ut dui. Quisque ac nisl non arcu congue egestas sed et purus.
+		</p><p>
+			Check out this third paragraph! Curabitur efficitur nulla et tempus feugiat. Phasellus facilisis pellentesque dignissim. Mauris ac elementum dolor. Proin cursus aliquet justo, eu tempus urna. Phasellus ut convallis arcu, quis condimentum diam. Proin in est ipsum. Phasellus nec viverra eros, in pellentesque velit. Nunc dapibus molestie nulla. Aliquam sed odio eu lacus mollis placerat. Fusce pulvinar lorem vel ipsum varius, at commodo urna varius. Nullam id tempus sem, eget euismod purus. Fusce vitae erat et ipsum iaculis accumsan. 
+		</p>
+	</div>
+	<div class="right">
+	    <img src="soda_stereo.jpg" />
+	    <p class="caption">Soda Stereo, the famous rock band from Argentina</p>
+	</div>
+</section>
+
+</body>
+</html>
